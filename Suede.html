@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Suede</title>
+  <table>
+    <tr>
+      <td><img src="file:///Users/Newbery/Desktop/News%20Dev%20Projects/Suede/Suede.png" alt="Suede"></td>
+      <td>
+        <h1>Suede</h1>
+        Mobile Barbershop <br>
+        Serving North Jersey and NYC <br>
+        Request your appointment today!
+      </td>
+    </tr>
+  </table>
+</head>
+
+<body>
+  <form action="SEND ADDRESS" id="Appointments" method="POST" accept-charset="UTF-8">
+    <fieldset>
+      <legend>Client Name</legend>
+      <label>
+        First Name
+        <input type="text" name="first name" required>
+      </label>
+      <label>
+        Last Name
+        <input type="text" name="last name" required>
+      </label>
+      <div class="two col">
+        <br>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Mobile
+          <input type="tel" name="phone" required>
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Appointment Request</legend>
+      <div class="two cols">
+        <label>
+          Date
+          <input type="date" name="Appointment Request" required>
+        </label>
+        <Span>
+          <label>
+            Time
+            <select multiplename="Times">
+              <option>Select One</option>
+              <option>9:00AM</option>
+              <option>10:00AM</option>
+              <option>11:00AM</option>
+              <option>12:00PM</option>
+              <option>1:00PM</option>
+              <option>2:00PM</option>
+              <option>3:00PM</option>
+              <option>4:00PM</option>
+              <option>5:00PM</option>
+            </select>
+          </label>
+          <p>
+          <label for="Barber">Barber</label>
+            <select multiplename="Barber">
+              <option>Select One</option>
+              <option>Jay Pe$o</option>
+              <option>Michael Jordan</option>
+              <option>Muhammad Ali</option>
+              <option>Lebron James</option>
+              <option>Tiger Woods</option>
+              <option>Serena Williams</option>
+            </select>
+        </Span>
+        <label for="Service Type">Service Type</label>
+          <select multiplename="Service Type">
+            <option>Select One</option>
+            <option>Senior 65+ $15</option>
+            <option>Kids $15</option>
+            <option>Shape-Up $10</option>
+            <option>Shape-Up & Beard $15</option>
+            <option>Haircut $20</option>
+            <option>Haircut & Beard $25</option>
+          </select>
+          </p>
+      </div>
+      <p>Confirmation requested by:</p>
+      <div class="inline">
+        <label>
+          <input type="radio" name="Confirmation requested by" value="email" checked>
+          Email
+        </label>
+        <label>
+          <input type="radio" name="Confirmation requested by" value="phone">
+          Phone call
+        </label>
+      </div>
+    </fieldset>
+    <br>
+    <div class="btns">
+      <input type="submit" value="Submit request">
+    </div>
+  </form>
+</body>
+
+</html>
