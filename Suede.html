@@ -8,15 +8,16 @@
   <title>Suede</title>
   <table>
     <tr>
-      <td><img src="Suede.png" alt="Suede"></td>
-      <td>
-        <h1>Suede</h1>
+      <td><img src="file:///Users/Newbery/Desktop/News%20Dev%20Projects/Suede/Suede.png" alt="Suede"></td>
+      <td class="companyinfo">
+        <h1 class="company">Suede</h1>
         Mobile Barbershop <br>
         Serving North Jersey and NYC <br>
         Request your appointment today!
       </td>
     </tr>
   </table>
+  <link rel="stylesheet" href="file:///Users/Newbery/Desktop/News%20Dev%20Projects/Suede/suede.css">
 </head>
 
 <body>
@@ -39,7 +40,7 @@
         </label>
         <label>
           Mobile
-          <input type="tel" name="phone" required>
+          <input type="tel" name="phone" placeholder="(   )    -    " required>
         </label>
       </div>
     </fieldset>
@@ -67,7 +68,7 @@
             </select>
           </label>
           <p>
-          <label for="Barber">Barber</label>
+            <label for="Barber">Barber</label>
             <select multiplename="Barber">
               <option>Select One</option>
               <option>Jay Pe$o</option>
@@ -79,16 +80,25 @@
             </select>
         </Span>
         <label for="Service Type">Service Type</label>
+        <select multiplename="Service Type">
+          <option>Select One</option>
+          <option>Senior 65+ $15</option>
+          <option>Kids $15</option>
+          <option>Shape-Up $10</option>
+          <option>Shape-Up & Beard $15</option>
+          <option>Haircut $20</option>
+          <option>Haircut & Beard $25</option>
+        </select>
+        <span>
+          <label for="Kids">Kids</label>
           <select multiplename="Service Type">
             <option>Select One</option>
-            <option>Senior 65+ $15</option>
-            <option>Kids $15</option>
-            <option>Shape-Up $10</option>
-            <option>Shape-Up & Beard $15</option>
-            <option>Haircut $20</option>
-            <option>Haircut & Beard $25</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3+</option>
           </select>
-          </p>
+        </span>
+        </p>
       </div>
       <p>Confirmation requested by:</p>
       <div class="inline">
