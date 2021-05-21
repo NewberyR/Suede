@@ -2,3 +2,7 @@
     font-family: brush script mt;
     font-size: 80px;
 }
+button:hover {
+    background-color: #003566;
+    color: white;
+}
