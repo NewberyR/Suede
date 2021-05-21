@@ -1,2 +1,2 @@
 # Suede
-Appointments for barbershop
+Appointment application for barbershops
