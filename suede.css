@@ -18,7 +18,18 @@ button{
     background-color: grey;
     border-style: solid;
     transition: all 0.25s;
+    
 }
 h1 {
     margin-bottom: 0px;
+}
+section{
+width: auto;
+height: auto;
+background-image: url("file:///Users/Newbery/Desktop/News%20Dev%20Projects/Suede/barber-tool.jpeg");
+background-size: cover;
+background-position: bottom;
+
+
+color: white;
 }
