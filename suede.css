@@ -1,5 +1,5 @@
 .company {
-    font-family: brush script mt;
+    font-family: 'Dancing Script', cursive;
     font-size: 80px;
 }
 button:hover {
@@ -26,8 +26,10 @@ h1 {
 section{
 width: auto;
 height: auto;
-background-image: url("barber-tool.jpeg");
+background-image: url("file:///Users/Newbery/Desktop/News%20Dev%20Projects/Suede/barber-tool.jpeg");
 background-size: cover;
 background-position: bottom;
+
+
 color: white;
 }
