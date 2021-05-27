@@ -1,6 +1,39 @@
+
+body {
+    position: relative;
+}
+
+section{
+width: auto;
+height: auto;
+background-image: url("barber-tool.jpeg");
+background-size: cover;
+background-position: bottom;
+color: white;
+}
+.appointment-requests {
+    margin: 0 auto 0 auto;
+    width: 50em;
+}
+.client-name {
+    margin: 0 auto 0 auto;
+    width: 50em;
+}
+.heading {
+    margin: 0 auto 0 auto;
+    width: 52em;
+}
 .company {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script',lato, roboto, cursive;
     font-size: 80px;
+}
+button {
+    padding: .2em;
+    border-radius: 5px;
+    background-color: grey;
+    border-style: solid;
+    transition: all 0.25s; 
+    margin: 0 auto 0 auto;
 }
 button:hover {
     background-color: #003566;
@@ -8,28 +41,15 @@ button:hover {
     border-color: #1d3557;
     border
     border-radius: 5px;
-    box-shadow: 0 .5em .5em -0.4em #003566;
-    transform: translateY(-0.25em);
-    
+    box-shadow: 0 .5em, .5em, -0.4em #003566;
+    transform: translateY(-0.25em);     
 }
-button{
-    padding: .2em;
-    border-radius: 5px;
-    background-color: grey;
-    border-style: solid;
-    transition: all 0.25s;
-    
+.confirm-appointment {
+    position: absolute;
+    right: auto;
+    left: auto;
 }
-h1 {
-    margin-bottom: 0px;
-}
-section{
-width: auto;
-height: auto;
-background-image: url("barber-tool.jpeg");
-background-size: cover;
-background-position: bottom;
 
 
-color: white;
-}
+
+
